@@ -6,6 +6,9 @@
 
 ---
 
+## Deployment link - https://skeptic-arena.streamlit.app/
+# Click above link to view the app
+
 ## 💡 What is The Skeptic Arena?
 
 Most AI pitch feedback is polite, accommodating, and generic. **The Skeptic Arena** is engineered to do the exact opposite: ruthlessly expose structural weaknesses before the market does.
