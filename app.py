@@ -79,7 +79,7 @@ Deliver a punchy, ruthless, 3-sentence attack applying this vulnerability direct
 """
                 chat_completion = groq_client.chat.completions.create(
                     messages=[{"role": "user", "content": prompt}],
-                    model="llama-3.1-8b-instant",
+                    model="openai/gpt-oss-120b",
                     temperature=0.5
                 )
                 st.session_state.objection = chat_completion.choices[0].message.content
@@ -113,7 +113,7 @@ TACTICAL FIX: [1 concrete piece of advice]
 """
                     eval_response = groq_client.chat.completions.create(
                         messages=[{"role": "user", "content": eval_prompt}],
-                        model="llama-3.1-8b-instant",
+                        model="openai/gpt-oss-120b",
                         temperature=0.2
                     )
                     st.divider()
